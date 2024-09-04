@@ -11,7 +11,7 @@ export default function UserPage() {
     if(logged){
       actions.showUser();
     }
-    // Si no hay token, redirige al inicio de sesión
+
     if (!logged) {
       navigate('/');
     }
